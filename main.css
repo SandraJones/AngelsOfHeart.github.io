@@ -1,0 +1,119 @@
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  position:  relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(SunCatcher.jpg);
+  text-align: center;
+  color: white;
+  font-family: Verdana;
+}
+header {
+  position:  relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-family: Verdana;
+}
+.container {
+  width:100%;
+  background-color: black;
+}
+li {
+  color: black;
+}
+
+article {
+  text-align: center;
+  font-size: 14px;
+}
+.contentOne {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+ 
+  margin-bottom: 60px;
+}
+.thirdBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fourthBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fifthBlock {
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navwrapper {
+  color: black;
+}
+.footer {
+  text-align: center;
+}
+.contentSmall {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lastBlock {
+  width: 100%;
+  align-items: center;
+  padding: auto;
+}
+.black-text{
+  margin: 0 auto; 
+  text-align: center;
+  font-size: 14px;
+}
+.centerBottomLinks{
+  margin:0 auto;
+  text-align: center;
+}
+
+.projectsTitle {
+  padding-top: 20px;
+}
+.spacer {
+  margin-top: 70%;
+}
+a {
+  color: white;
+}
+.footerClass {
+  margin-top: 100px;
+}
