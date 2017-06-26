@@ -1,5 +1,10 @@
 body {
   padding-top: 70px;
+  position:  relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(SquaredSunCatcher.jpg);
 }
 
 .navbar-inverse {
@@ -32,4 +37,7 @@ header {
 .gallerySubTitle {
   text-align: center;
   padding-top: 5%;
+}
+h1 {
+  font-weight: 600;
 }
