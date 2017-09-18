@@ -48,6 +48,8 @@ h1 {
   font-weight: 600;
   margin-left: 20%;
   margin-right: 20%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .email {
   font-weight: 600;
