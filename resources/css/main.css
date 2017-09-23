@@ -3,6 +3,34 @@
     font-family: 'Open Sans', sans-serif !important;
 }
 
+.spanish-button {
+    margin-top: 10px;
+}
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+
+.a-button {
+    align-items: none;
+    text-align: right !important;
+}
+
+.a-button {
+    border-radius: 0 5px 5px 0 !important;
+    text-align: right !important;
+}
+
+.a-input {
+    border-radius: 5px 0 0 5px !important;
+}
+
+.pl-no {
+    padding-left: 0 !important;
+}
+
+.pr-no {
+    padding-right: 0 !important;
+}
+
 .header-logo {
     left: 0;
     max-height: 200px;
@@ -50,6 +78,12 @@
     display: block;
     margin: auto;
     text-align: center;
+}
+
+/* mailchimp form */
+.email-input {
+    text-align: center;
+    width: auto !important;
 }
 
 /*image gallery*/
