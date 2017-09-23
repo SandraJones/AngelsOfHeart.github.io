@@ -53,12 +53,14 @@
 /*image gallery*/
 
 .gallery-section {
+	height: 100%;
+	width: 100%;
     margin: 3em auto;
+    display: initial;
 }
 
 #galleria {
-	margin: 0 auto;
-	width: 730px;
+	margin: 3em auto;
 }
 
 .fa-facebook-official {
@@ -157,4 +159,10 @@
     .footer-copyright {
         margin-top: 20px;
     }
+}
+
+@media (max-width: 760px) {
+	.gallery-section {
+		display: none;
+	}
 }
