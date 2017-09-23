@@ -1,4 +1,4 @@
-* {
+*:not(i){
     /* Overwrite default bootstrap font */
     font-family: 'Open Sans', sans-serif !important;
 }
