@@ -87,15 +87,27 @@
 .copyright {
     margin-top: 8px;
 }
-
+.sub-section {
+    margin-top: 80px;
+}
 
 /***** get-involved section *****/
+.who-are-we-hr {
+	border: none;
+	color: teal;
+	background-color: teal;
+	width: 230px;
+	height: 4px;
+    margin-top: -5px;
+}
+
 .get-involved-hr {
 	border: none;
 	color: teal;
 	background-color: teal;
-	width: 175px;
+	width: 220px;
 	height: 4px;
+    margin-top: -5px;
 }
 
 .email-input {
