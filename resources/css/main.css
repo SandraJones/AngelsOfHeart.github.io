@@ -1,3 +1,7 @@
+body {
+
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -25,7 +29,17 @@
     padding-top: 240px;
     padding-bottom: 200px;
     color: white;
-    background-size: cover;
     /* Tinted Image */
-    background: linear-gradient(rgba(0, 105, 137, 0.37), rgba(0, 105, 137, 0.37)), url(../../images/elsalv-gifts.jpg) center;
+    background: linear-gradient(rgba(0, 105, 137, 0.37), rgba(0, 105, 137, 0.37)), url(../../images/elsalv-gifts.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.call-to-action h2 {
+    line-height: 1.5;
+    font-size: 30px;
+    width: 844px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
