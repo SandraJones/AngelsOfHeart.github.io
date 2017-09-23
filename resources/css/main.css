@@ -106,7 +106,6 @@
 
 #galleria {
 	margin: 3em auto;
-	width: 760px;
 }
 
 .fa-facebook-official {
@@ -209,10 +208,4 @@
     .footer-copyright {
         margin-top: 20px;
     }
-}
-
-@media (max-width: 760px) {
-	.action {
-		display: none;
-	}
 }
