@@ -12,10 +12,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
           integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
           crossorigin="anonymous"></script>
-  <!-- holds script for loading carousel images and html -->
-  <script src="js/carousel.js"></script>
   <link rel="stylesheet" href="resources/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="resources/css/main.css">
+  <!-- holds script for loading carousel images and html -->
+  <script src="carousel.js"></script>
 
 </head>
 <body>
@@ -57,11 +57,11 @@
     <h1>Events...</h1>
     <!-- tags for image carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- append index #s from js -->
-      <ol class="carousel-indicators" id="indicators"></ol>
+      <!-- Indicators -->
+      <ol id="indicators" class="carousel-indicators"></ol>
+      <!-- Wrapper for slides -->
+      <div id="carousel-images" class="carousel-inner"> </div>
 
-      <!-- append images and captions from js -->
-      <div id="carousel-images"></div>
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
@@ -71,7 +71,7 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
+
     <!-- /image carousel -->
     </div>
 </div>

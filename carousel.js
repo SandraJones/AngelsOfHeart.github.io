@@ -20,7 +20,7 @@ $(function(){
 
 	imagesArr.forEach ((image, index) => {
 
-		let lineItem = `<li data-target="#myCarousel" data-slide-to="${index}"></li>`;
+		let lineItem = `<li data-target="#myCarousel" data-slide-to="${index}" active></li>`;
 
 		$('#indicators').append(lineItem);
 
