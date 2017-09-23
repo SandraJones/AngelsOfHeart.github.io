@@ -3,6 +3,11 @@
     border-radius: 0;
 }
 
+.navbar-default {
+    background-color: transparent;
+    margin-bottom: -60px;
+}
+
 .navbar-brand {
     padding: 5px;
 }
@@ -17,5 +22,10 @@
 }
 
 .call-to-action {
-    background-color: teal;
+    padding-top: 240px;
+    padding-bottom: 200px;
+    color: white;
+    background-size: cover;
+    /* Tinted Image */
+    background: linear-gradient(rgba(0, 105, 137, 0.37), rgba(0, 105, 137, 0.37)), url(../../images/elsalv-gifts.jpg) center;
 }
