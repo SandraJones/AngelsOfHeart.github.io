@@ -50,6 +50,18 @@
     background-color: #0d6a87;
 }
 
+.footer-logo {
+    text-align: left;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
 .footer a, .copyright {
     color: #EAEBED;
 }
@@ -74,4 +86,23 @@
 
 .copyright {
     margin-top: 8px;
+}
+
+@media (max-width: 992px) {
+    .footer-logo, .footer-info, .footer-copyright {
+        text-align: center !important;
+    }
+
+    .footer-logo img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-info {
+        margin-top: 15px;
+    }
+
+    .footer-copyright {
+        margin-top: 20px;
+    }
 }
