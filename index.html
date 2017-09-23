@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="resources/css/main.css">
   <!-- holds script for loading carousel images and html -->
   <script src="carousel.js"></script>
+  <script src="resources/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 <body>
@@ -30,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/angels-of-heart-white-on-red.svg" alt="" class="img-responsive"></a>
+      <a class="navbar-brand" href="#"><img src="images/logo-white.svg" alt="" class="img-responsive"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,17 +45,32 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="site-section call-to-action">
-  <div class="container-fluid">
-    <h1>Call To Action</h1>
+  <div class="container">
+    <h2>We are a non-profit committed to helping the homeless, elderly and children of Nashville and El Salvador.</h2>
   </div>
 </div>
 <div class="site-section get-involved">
 <div class="container-fluid">
-    <h1>Get involved.</h1>
+    <h1 class="text-center">Who Are We?</h1>
+    <hr class="get-involved-hr">
+    <p class="text-center get-involved-text">Angels of Heart is a Christian organization based in Nashville, TN. We hold several events each year to benefit the forgotten people: the elderly, the homeless, and the children of our communities.</p>
+    <h1 class="text-center">Get Involved</h1>
+    <hr class="get-involved-hr">
+    <p class="text-center get-involved-text">We have three major events that we create and manage each year. As we are able to scale as an organization, we will have additional or ongoing activities for assisting those in need. Details for each event can be found on our Facebook Page.
+    <div class="facebook-logo text-center"><a href="https://www.facebook.com/Angels-of-Heart-1139199549512967/" target="_blank"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></div>
+    <p class="text-center get-inolved-cta">If you would like to find out about our ongoing needs and volunteer opportunities, please subscribe to our mailing list.</p>
+    <div class="row email-input">
+      <div class="col-md-8">
+        <input type="text" class="form-control" placeholder="Email Address">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-danger">Sign Up</button>
+      </div>
+    </div>
   </div>
 </div>
 <div class="site-section events">
-<div class="container-fluid">
+  <div class="container">
     <h1>Events...</h1>
     <!-- tags for image carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -76,9 +93,33 @@
     </div>
 </div>
 <div class="footer">
-  <div class="container-fluid">
-    <h1>Footer.</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 footer-logo">
+        <img class="img img-responsive" src="images/logo-white.svg">
+      </div>
+      <div class="col-xs-12 col-md-4 footer-info">
+        <a class="infolink" href="mailto:info@angelsofheart.org">info@angelsofheart.org</a>
+        <a class="infolink" href="tel:6157792288">(615)-779-2288</a>
+      </div>
+      <div class="col-xs-12 col-md-4 footer-copyright">
+        <div class="icons">
+          <a href="#twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#facebook">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+        </div>
+        <div class="copyright">
+          &copy; Angels of Hearts <span id="autoYear"></span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Footer JS -->
+<script src="https://use.fontawesome.com/3424db40ef.js"></script>
 </body>
 </html>

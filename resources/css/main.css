@@ -1,6 +1,16 @@
+*:not(i){
+    /* Overwrite default bootstrap font */
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+}
+
+.navbar-default {
+    background-color: transparent;
+    margin-bottom: -60px;
 }
 
 .navbar-brand {
@@ -12,9 +22,113 @@
 }
 
 .site-section {
-    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .call-to-action {
-    background-color: teal;
+    padding-top: 240px;
+    padding-bottom: 200px;
+    color: white;
+    /* Tinted Image */
+    background: linear-gradient(rgba(0, 105, 137, 0.37), rgba(0, 105, 137, 0.37)), url(../../images/elsalv-gifts.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.call-to-action h2 {
+    line-height: 1.5;
+    font-size: 30px;
+    width: 844px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    padding: 15px 0 15px 0 ;
+    background-color: #0d6a87;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
+.footer a, .copyright {
+    color: #EAEBED;
+}
+
+.infolink {
+    display: block;
+    margin-top: 8px;
+}
+
+.footer a:hover, .footer a:focus, .footer a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer i.fa {
+    background-color: #EAEBED;
+    border-radius: 15px;
+    color: #0d6a87;
+    margin-left: 8px;
+    padding: 6px 7px;
+}
+
+.copyright {
+    margin-top: 8px;
+}
+
+
+/***** get-involved section *****/
+.get-involved-hr {
+	border: none;
+	color: teal;
+	background-color: teal;
+	width: 175px;
+	height: 4px;
+}
+
+.email-input {
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+
+.get-involved-text {
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.get-inolved-cta {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+    .footer-logo, .footer-info, .footer-copyright {
+        text-align: center !important;
+    }
+
+    .footer-logo img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-info {
+        margin-top: 15px;
+    }
+
+    .footer-copyright {
+        margin-top: 20px;
+    }
 }
