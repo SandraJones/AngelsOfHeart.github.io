@@ -91,6 +91,11 @@
 }
 
 /*image gallery*/
+.action {
+	background-color: #ebebeb;
+	margin-top: 3em;
+}
+
 
 .gallery-section {
 	height: 100%;
@@ -101,6 +106,7 @@
 
 #galleria {
 	margin: 3em auto;
+	width: 760px;
 }
 
 .fa-facebook-official {
@@ -158,6 +164,10 @@
 }
 
 /***** get-involved section *****/
+.get-involved {
+	width: 75%;
+}
+
 .get-involved-hr {
 	border: none;
 	color: teal;
@@ -202,7 +212,7 @@
 }
 
 @media (max-width: 760px) {
-	.gallery-section {
+	.action {
 		display: none;
 	}
 }
