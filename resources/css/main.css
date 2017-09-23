@@ -3,22 +3,24 @@
     font-family: 'Open Sans', sans-serif !important;
 }
 
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
+.header-logo {
+    left: 0;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    
+}
+
+.search-text {
+    display: none;
 }
 
 .navbar-default {
     background-color: transparent;
-    margin-bottom: -60px;
-}
-
-.navbar-brand {
-    padding: 5px;
-}
-
-.navbar-brand > img {
-    max-height: 100%;
+    margin-bottom: -100px;
 }
 
 .site-section {
@@ -27,8 +29,8 @@
 }
 
 .call-to-action {
-    padding-top: 240px;
-    padding-bottom: 200px;
+    padding-top: 280px;
+    padding-bottom: 160px;
     color: white;
     /* Tinted Image */
     background: linear-gradient(rgba(0, 105, 137, 0.37), rgba(0, 105, 137, 0.37)), url(../../images/elsalv-gifts.jpg) no-repeat center;
@@ -85,7 +87,7 @@
     color: #EAEBED;
 }
 
-.infolink {
+.infolink:not(:first-child) {
     display: block;
     margin-top: 8px;
 }
