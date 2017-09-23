@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand > img {
+    max-height: 100%;
+}
+
+.site-section {
+    height: 200px;
+}
+
+.call-to-action {
+    background-color: teal;
+}
