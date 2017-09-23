@@ -7,7 +7,7 @@ $(document).ready(function () {
 	 lightbox: true,
 	 facebookOptions: {
 	   max: 30, // optional override for limit of 40 photos on an album
-	   facebook_access_token: '116513992429492|YpbXaNm6mBpHLijfixB-pfi2i9g'
+	   facebook_access_token: '1672444229432314|fiA4q4sbOERAptOwa6x7XNE-yVo'
 	 }
 	});
 });
