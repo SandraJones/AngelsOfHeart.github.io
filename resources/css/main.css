@@ -11,12 +11,16 @@
 
 .a-button {
     align-items: none;
+    background-color: #006989;
+    border-color: #006989;
+    text-align: right !important;
+    border-radius: 0 5px 5px 0 !important;
     text-align: right !important;
 }
 
-.a-button {
-    border-radius: 0 5px 5px 0 !important;
-    text-align: right !important;
+.a-button:hover {
+    background-color: #005070;
+    border-color: #005070;
 }
 
 .a-input {
