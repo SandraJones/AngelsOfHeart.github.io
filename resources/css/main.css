@@ -45,6 +45,12 @@
     text-align: center;
 }
 
+/*image gallery*/
+
+.gallery-section {
+	margin: auto;
+}
+
 .footer {
     padding: 15px 0 15px 0 ;
     background-color: #0d6a87;
