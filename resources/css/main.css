@@ -35,6 +35,11 @@
     background-size: cover;
 }
 
+.call-to-action h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
 .call-to-action h2 {
     line-height: 1.5;
     font-size: 30px;
@@ -43,12 +48,14 @@
     display: block;
     margin: auto;
     text-align: center;
-}
 
 /*image gallery*/
 
 .gallery-section {
 	margin: auto;
+
+.fa-facebook-official {
+    color: #3b5998;
 }
 
 .footer {
@@ -58,6 +65,10 @@
 
 .footer-logo {
     text-align: left;
+}
+
+.logo {
+    max-height: 100px;
 }
 
 .footer-info {
@@ -93,14 +104,16 @@
 .copyright {
     margin-top: 8px;
 }
-
+.sub-section {
+    margin-top: 80px;
+}
 
 /***** get-involved section *****/
 .get-involved-hr {
 	border: none;
 	color: teal;
 	background-color: teal;
-	width: 175px;
+	width: 190px;
 	height: 4px;
 }
 
