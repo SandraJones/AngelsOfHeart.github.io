@@ -4734,8 +4734,8 @@ this.prependChild( 'info', 'myElement' );
 
         $.each( measures, function( m, val ) {
             if ( !val ) {
-                $container[ m ]( 'auto' );
-                measures[ m ] = self._getWH()[ m ];
+                $container[ m ]( val );
+                self._options[m] = val;
             }
         });
 
