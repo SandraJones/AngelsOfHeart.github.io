@@ -105,22 +105,12 @@
 }
 
 /***** get-involved section *****/
-.who-are-we-hr {
-	border: none;
-	color: teal;
-	background-color: teal;
-	width: 200px;
-	height: 4px;
-    margin-top: -5px;
-}
-
 .get-involved-hr {
 	border: none;
 	color: teal;
 	background-color: teal;
 	width: 190px;
 	height: 4px;
-    margin-top: -5px;
 }
 
 .email-input {
