@@ -19,3 +19,28 @@
 .call-to-action {
     background-color: teal;
 }
+
+/***** get-involved section *****/
+.get-involved-hr {
+	border: none;
+	color: teal;
+	background-color: teal;
+	width: 175px;
+	height: 4px;
+}
+
+.email-input {
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+
+.get-involved-text {
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.get-inolved-cta {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
