@@ -53,6 +53,11 @@
 }
 
 /*image gallery*/
+.action {
+	background-color: #ebebeb;
+	margin-top: 3em;
+}
+
 
 .gallery-section {
 	height: 100%;
@@ -121,6 +126,11 @@
 }
 
 /***** get-involved section *****/
+.get-involved {
+	width: 75%;
+	border: 1px solid red;
+}
+
 .get-involved-hr {
 	border: none;
 	color: teal;
@@ -165,7 +175,7 @@
 }
 
 @media (max-width: 760px) {
-	.gallery-section {
+	.action {
 		display: none;
 	}
 }
