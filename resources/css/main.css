@@ -48,11 +48,13 @@
     display: block;
     margin: auto;
     text-align: center;
+}
 
 /*image gallery*/
 
 .gallery-section {
-	margin: auto;
+    margin: auto;
+}
 
 .fa-facebook-official {
     color: #3b5998;
