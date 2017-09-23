@@ -35,6 +35,11 @@
     background-size: cover;
 }
 
+.call-to-action h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
 .call-to-action h2 {
     line-height: 1.5;
     font-size: 30px;
