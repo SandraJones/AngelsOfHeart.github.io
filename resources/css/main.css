@@ -53,7 +53,12 @@
 /*image gallery*/
 
 .gallery-section {
-    margin: auto;
+    margin: 0 auto;
+}
+
+#galleria {
+	margin: 0 auto;
+	width: 730px;
 }
 
 .fa-facebook-official {
